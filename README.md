@@ -86,3 +86,7 @@ git push repo_name --delete branchname
 ```sh
 git rebase branch_name
 ```
+* Для клонирования чужого репозитроия себе используется команда *clone*
+```sh
+git clone <URL>
+```
