@@ -62,3 +62,27 @@ git remote add origin https://github.com/.../repo_name.git
 ```sh
 git push -u origin branch_name
 ```
+* Для просмотра удаленные адреса используется команда *remote -v*
+```sh
+git remote -v
+```
+* Для просмотра подробностей об удаленном репозитории используется команда *remote show* с указанием репозитория
+```sh
+git remote show repo_name
+```
+* Для загрузки изменений с удаленного подключенного сервера на локальный используется команда *pull*
+```sh
+git pull
+```
+* Для подключения новой ветки к репозиторию используется команда *push --set-upstream*
+```sh
+git push --set-upstream repo_mane branch_name
+```
+* Для удаления ненужной ветки через терминал используется команда *push repo_name --delete branchname*
+```sh
+git push repo_name --delete branchname
+```
+* Для перебазирования веток используется команда *rebase*
+```sh
+git rebase branch_name
+```
