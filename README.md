@@ -54,3 +54,11 @@ git checkout -b new_branch_name
 ```sh
 git merge branch_name
 ```
+* Для подключения удаленного сервера используется команда *remote add origin*
+```sh
+git remote add origin https://github.com/.../repo_name.git
+```
+* Для переноса изменений на удаленный сервер используется команда *push -u*
+```sh
+git push -u origin branch_name
+```
